@@ -25,7 +25,16 @@ header nav ul li  {
             
 
         
-}        
+}     
+
+header nav ul li:hover  {
+    color: rgb(34, 34, 199);
+    text-decoration: none;
+    transform: rotateY(35deg);
+        
+
+    
+}    
 
 
 .tituloPrincipal{
@@ -36,7 +45,10 @@ header nav ul li  {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         height: 100px;
         margin-top: 4px;
-}
+     }
+
+
+
 
 .subtitulo{
     display: flex;
@@ -48,6 +60,10 @@ header nav ul li  {
     margin-top: 4px;
 }
 
+.animate__animated{
+    text-decoration: underline;
+    animation-delay: 1s;
+}
 
 
 #grid{
@@ -131,6 +147,13 @@ footer nav ul{
 footer nav ul a li  {
     color: rgb(19, 18, 17);
     text-decoration: none;}
+
+footer nav ul a li:hover  {
+        color: rgb(59, 83, 163);
+        text-decoration: none;
+        transform: scale(1, 2);
+        
+    }    
 
 
 #parrafo{
@@ -219,6 +242,16 @@ footer nav ul a li  {
     background-color:#D6A3FB ;
     cursor: pointer;
 }
+
+.button:hover{
+    border-radius: 20px;
+    color: rgb(17, 16, 16);
+    margin-top: 18px;
+    padding:10px;
+    background-color:#eee ;
+    cursor: pointer;
+}
+
 
 
 
